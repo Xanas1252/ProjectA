@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+   
+}
+
+.dad{
+    height: 100%;
+   display: grid;
+   grid-template-columns: 0.5fr 4fr 1fr 3fr ;
+   
+}
+.dad > div {
+    grid-row: 1/4;
+}
+.kid1{
+   grid-column: 1;
+    background: salmon;
+    
+}
+.kid2{
+    background: seagreen;
+    grid-column: 2;
+    
+    
+}
+.kid3{
+    grid-column: 3/4;
+    z-index: 90;
+    
+   
+}
+.kid4{
+    background: url(portrait.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 3/5;
+    z-index: 80;
+}
