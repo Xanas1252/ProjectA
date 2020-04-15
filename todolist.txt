@@ -1,3 +1,14 @@
+<!--done
+
 1.make each wave alone so you can control them in css
 2.no width 
 4.height of documet any
+
+
+-->
+
+
+
+1.make the waves more connected vertically
+2.remove border left from the waves 
+3.make the bottom left corner connected to the bottom left corner of the document

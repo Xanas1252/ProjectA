@@ -1,50 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-}
-
-html, body{
     margin: 0;
     padding: 0;
-    height: 100%;
-   
 }
 
-.dad{
-    height: 100%;
-   display: grid;
-   grid-template-columns: 0.5fr 4fr 1fr 3fr ;
-   
-}
-.dad > div {
-    grid-row: 1/4;
-}
-.kid1{
-   grid-column: 1/2;
-    background: salmon;
-    
-}
-.kid2{
-    background: #D58C95;
-    grid-column: 2/4;
-    
-    
-}
-.kid3{
-    grid-column: 4/5;
-    z-index: 90;
-    
-   
-}
-.kid4{
-    background: url(portrait.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    grid-column: 4/6;
-    z-index: 80;
-}
-/*waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves */
 svg {
     height: 100vh;
 }
@@ -238,4 +197,3 @@ svg > .st04{
         transform: scaleX(1);
     }
         }
-        /*end of waves end of waves end of waves end of waves end of waves end of waves end of waves end of waves end of waves */
