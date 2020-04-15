@@ -59,38 +59,68 @@ animation-iteration-count: infinite;
        transform: scalex(1); 
        
     }
+    5%{
+        transform: scaleX(0.9);
+    }
     10%{
-        transform: scalex(0.9); 
+        transform: scalex(0.8); 
     
     }
+    15%{
+        transform: scaleX(0.9);
+    }
     20%{
-        transform: scalex(0.8); 
+        transform: scalex(1); 
        
+    }
+    25%{
+        transform: scaleX(0.9);
     }
     30%{
-        transform: scalex(0.7); 
+        transform: scalex(0.8); 
       
     }
+    35%{
+        transform: scaleX(0.9);
+    }
     40%{
-        transform: scalex(0.8); 
+        transform: scalex(); 
+    }
+    45%{
+        transform: scaleX(0.9);
     }
     50%{
-        transform: scalex(0.7); 
+        transform: scalex(1); 
        
+    }
+    55%{
+        transform: scalex(0.8);
     }
     60%{
         transform: scalex(0.7); 
        
     }
+    65%{
+        transform: scalex(0.9);
+    }
     70%{
        transform: scalex(0.8); 
         
     }
+    75%{
+        transform: scalex(0.7);
+    }
 80% {
     transform: scaleX(0.9);
 }
+85%{
+    transform : scalex(0.8);
+}
 90%{
     transform: scaleX(0.9);
+}
+95% {
+    transform : scalex(0.8);
 }
 100%{
     transform: scaleX(1);
