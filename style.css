@@ -22,8 +22,8 @@ html, body{
 }
 .kid1{
    grid-column: 1/2;
-    background: salmon;
-    
+    background: white;
+    display: grid;
 }
 .kid2{
     background: #D58C95;
@@ -47,6 +47,7 @@ html, body{
 /*waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves waves */
 svg {
     height: 100vh;
+    
 }
 
 svg > .st01{
